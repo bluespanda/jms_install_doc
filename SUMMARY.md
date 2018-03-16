@@ -1,6 +1,6 @@
 # Summary
 
-* [首页](README.md)
+* [前言](README.md)
 * [1 部署概述](bu-shu-shuo-ming.md)
   * [1.1 部署原则](bu-shu-shuo-ming/11-bu-shu-yuan-ze.md)
   * [1.2 服务器配置建议](bu-shu-shuo-ming/12-fu-wu-qi-pei-zhi-jian-yi.md)
