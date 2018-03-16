@@ -46,16 +46,22 @@ sudo yum install  git -y
 
 > Jumpserver 使用 Redis 做 cache 和 celery broke
 
+> yum安装redis
+
 ```
-sudo yum 
-install
- redis -y
-sudo systemctl 
-enable
- redis
-sudo systemctl 
-start
-  redis
+sudo yum installredis -y
+```
+
+> 开机启动redis
+
+```
+sudo systemctl enable redis
+```
+
+> 启动redis
+
+```
+sudo systemctl startredis
 ```
 
 ## mariadb {#216-mariadb}
