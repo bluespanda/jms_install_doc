@@ -14,5 +14,11 @@ Yum 加速：
 http://mirrors.163.com/.help/centos.html
 ```
 
+Docker 加速：
+
+```
+https://www.docker-cn.com/registry-mirror
+```
+
 
 
