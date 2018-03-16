@@ -1,4 +1,4 @@
-# jms\_install\_doc
+# jumpserver安装文档
 
 自己整理的jumpserver部署手册，还请大家多多指教。
 
