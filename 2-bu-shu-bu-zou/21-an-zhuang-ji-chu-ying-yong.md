@@ -97,7 +97,6 @@ sudo yum -y install mariadb mariadb-devel mariadb-server
 ```
 Enter current password for root (enter fornone):<–初次运行直接回车
 Set root password? [Y] <–是否设置root用户密码，输入y并回车或直接回车
-
 New password: <–设置root用户的密码
 Re-enter new password: <–再输入一次你设置的密码
 Remove anonymous users? [Y] <–是否删除匿名用户，回车
@@ -118,8 +117,6 @@ mysql -u root -p
 > create database jumpserver default charset 'utf8'
 > grant all on jumpserver.* to 'jumpserver'@'127.0.0.1' identified by 'somepassword';
 ```
-
-
 
 
 
