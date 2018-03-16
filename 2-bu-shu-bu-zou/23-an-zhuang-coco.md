@@ -43,7 +43,6 @@ $ sudo cp conf_example.py conf.py
 
 ```
 $ sudo python run_server.py
-
 # 后台运行请查看FQA章节
 ```
 
