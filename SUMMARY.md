@@ -6,5 +6,17 @@
   * [1.2 服务器配置建议](bu-shu-shuo-ming/12-fu-wu-qi-pei-zhi-jian-yi.md)
 * [2 部署步骤](2-bu-shu-bu-zou.md)
   * [2.1 安装基础应用](2-bu-shu-bu-zou/21-an-zhuang-ji-chu-ying-yong.md)
+  * [2.2 安装 jumpserver](2-bu-shu-bu-zou/21-an-zhuang-jumpserver.md)
+  * 2.3 安装COCO
+  * 2.4 安装 Web Terminal 前端: Luna
+  * 2.5 安装 Windows 支持组件
+  * 2.6  配置 Nginx 整合各个组件
+* [3 all in one](3-all-in-one.md)
+* [4 更新升级](4-geng-xin-sheng-ji.md)
+  * [4.0 升级前准备](4-geng-xin-sheng-ji/40-sheng-ji-qian-zhun-bei.md)
+  * 4.1 升级jumpserver
+  * 4.2 升级COCO
+  * 4.3 升级 luna
+  * 4.4 升级guacamole
 * FAQ
 
