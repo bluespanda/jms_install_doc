@@ -11,7 +11,8 @@
   * 2.4 安装 Web Terminal 前端: Luna
   * 2.5 安装 Windows 支持组件
   * 2.6  配置 Nginx 整合各个组件
-* [3 all in one](3-all-in-one.md)
+* [3 All-in-One](3-all-in-one.md)
+  * 3.1 Docker 快速安装
 * [4 更新升级](4-geng-xin-sheng-ji.md)
   * [4.0 升级前准备](4-geng-xin-sheng-ji/40-sheng-ji-qian-zhun-bei.md)
   * 4.1 升级jumpserver
