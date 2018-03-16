@@ -15,9 +15,10 @@
 * [3 All-in-One](3-all-in-one.md)
 * [4 更新升级](4-geng-xin-sheng-ji.md)
   * [4.0 升级前准备](4-geng-xin-sheng-ji/40-sheng-ji-qian-zhun-bei.md)
-  * 4.1 升级jumpserver
-  * 4.2 升级COCO
-  * 4.3 升级 luna
-  * 4.4 升级guacamole
+  * [4.1 升级jumpserver](4-geng-xin-sheng-ji/41-sheng-ji-jumpserver.md)
+  * [4.2 升级COCO](4-geng-xin-sheng-ji/42-sheng-ji-coco.md)
+  * [4.3 升级 luna](4-geng-xin-sheng-ji/43-sheng-ji-luna.md)
+  * [4.4 升级guacamole](4-geng-xin-sheng-ji/44-sheng-ji-guacamole.md)
+  * [4.5 启动所有应用](4-geng-xin-sheng-ji/45-qi-dong-suo-you-ying-yong.md)
 * FAQ
 
