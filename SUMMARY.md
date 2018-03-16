@@ -19,5 +19,5 @@
   * [4.2 启动所有应用](4-geng-xin-sheng-ji/45-qi-dong-suo-you-ying-yong.md)
 * [FAQ](faq.md)
   * [系统相关](faq/1jumpserverde-ying-yong-zen-yang-hou-tai-yun-xing-ff1f.md)
-  * [应用相关](faq/ying-yong-xiang-guan.md)
+  * [附 相关工具及术语的简单解释](faq/ying-yong-xiang-guan.md)
 
