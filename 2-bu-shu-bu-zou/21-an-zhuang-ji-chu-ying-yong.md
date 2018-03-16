@@ -1,70 +1,42 @@
-
----
-
-###  安装第三方仓库 {#211-安装第三方仓库}
+### 安装第三方仓库 {#211-安装第三方仓库}
 
 ```
-sudo yum 
-install
- -y epel-
-release
+sudo yum install -y epel-release
 ```
 
-###  安装各种依赖 {#212-安装各种依赖}
+### 安装各种依赖 {#212-安装各种依赖}
 
 ```
-sudo yum -y 
-install
- wget sqlite-devel xz gcc automake zlib-devel openssl-devel
+sudo yum -y install  wget sqlite-devel xz gcc automake zlib-devel openssl-devel
 ```
 
-###  安装git工具 {#213-安装git工具}
+### 安装git工具 {#213-安装git工具}
 
 ```
-sudo yum 
-install
- git -y
+sudo yum install  git -y
 ```
 
 ### 安装Python3 和 Python 虚拟环境 {#214-安装python3-和-python-虚拟环境}
 
-####  编译安装 {#2141-编译安装}
+#### 编译安装 {#2141-编译安装}
 
 ```
-#
- wget https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tar.xz
-#
- tar xvf Python-3.6.1.tar.xz  
-&
-&
-cd
- Python-3.6.1
-#
- ./configure 
-&
-&
- make 
-&
-&
- make install
+# wget https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tar.xz
+# tar xvf Python-3.6.1.tar.xz  && cd Python-3.6.1
+# ./configure &&make && make install
 ```
 
-####  建立 Python 虚拟环境 {#2142-建立-python-虚拟环境}
+#### 建立 Python 虚拟环境 {#2142-建立-python-虚拟环境}
 
-因为 CentOS 6/7 自带的是 Python2，而 Yum 等工具依赖原来的 Python，为了不扰乱原来的环境所以我们使用 Python 虚拟环境。
+> 因为 CentOS 6/7 自带的是 Python2，而 Yum 等工具依赖原来的 Python，为了不扰乱原来的环境所以我们使用 Python 虚拟环境。
 
 ```
-#
-cd
- /opt
-#
- python3 -m venv py3
-#
-source
- /opt/py3/bin/activate
+# cd /opt
+# python3 -m venv py3
+# source /opt/py3/bin/activate
 ```
 
-看到下面的提示符\(py3\)代表成功，以后运行 Jumpserver 都要先运 source /opt/py3/bin/activate 命令，jumpserver的所有命令均在该虚拟环境中运行
+> 看到下面的提示符\(py3\)代表成功，以后运行 Jumpserver 都要先运 source /opt/py3/bin/activate 命令，jumpserver的所有命令均在该虚拟环境中运行
 
 ```
 (
