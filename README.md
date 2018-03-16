@@ -2,7 +2,7 @@
 
 自己整理的jumpserver部署手册，还请大家多多指教。
 
-欢迎来到 Jumpserver 文档。
+
 
 Jumpserver 是全球首款完全开源的堡垒机，使用 GNU GPL v2.0 开源协议，是符合 4A 的专业运维审计系统。
 
