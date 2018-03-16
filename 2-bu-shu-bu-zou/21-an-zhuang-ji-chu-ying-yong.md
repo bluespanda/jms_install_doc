@@ -1,3 +1,5 @@
+## 安装基础应用
+
 ### 安装第三方仓库 {#211-安装第三方仓库}
 
 ```
@@ -64,7 +66,7 @@ sudo systemctl enable redis
 sudo systemctl startredis
 ```
 
-## mariadb {#216-mariadb}
+## MariaDB {#216-mariadb}
 
 > 安装mariadb
 
@@ -108,7 +110,7 @@ $ sudo mysql -u root -p
 #输入您的密码
 ```
 
-### 2.1.6.2 创建数据库 Jumpserver 并授权 {#2162-创建数据库-jumpserver-并授权}
+### 创建数据库 Jumpserver 并授权 {#2162-创建数据库-jumpserver-并授权}
 
 > 登录mariadb后执行
 
