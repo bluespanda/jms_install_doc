@@ -13,6 +13,8 @@
   * [2.5 安装 Windows 支持组件](2-bu-shu-bu-zou/25-an-zhuang-windows-zhi-chi-zu-jian.md)
   * [2.6  配置 Nginx 整合各个组件](2-bu-shu-bu-zou/26-pei-zhinginx-zheng-he-ge-ge-zu-jian.md)
 * [3 All-in-One](3-all-in-one.md)
+  * [3.1 Docker 安装](3-all-in-one/docker-an-zhuang.md)
+  * [3.2 脚本安装](3-all-in-one/jiao-ben-an-zhuang.md)
 * [4 更新升级](4-geng-xin-sheng-ji.md)
   * [4.0 升级前准备](4-geng-xin-sheng-ji/40-sheng-ji-qian-zhun-bei.md)
   * [4.1 开始升级](4-geng-xin-sheng-ji/41-sheng-ji-jumpserver.md)
