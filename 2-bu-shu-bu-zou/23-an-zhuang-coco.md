@@ -47,7 +47,7 @@ $ sudo python run_server.py
 # 后台运行请查看FQA章节
 ```
 
-###  防火墙开启端口
+### 防火墙开启端口
 
 > 开放2222、5000端口
 
@@ -64,9 +64,9 @@ sudo firewall-cmd --reload
 
 ### 终端注册
 
-访问jumpserver管理平台,http://ip地址:8080/terminal/terminal/,会出现一条记录，选择接受。
+访问jumpserver管理平台,[http://ip地址:8080/terminal/terminal/ ](http://ip地址:8080/terminal/terminal/ ),会出现一条记录，选择接受。
 
-### 测试coco 
+### 测试coco
 
 使用xshell等工具，ssh连接jumpserver所在服务器的2222端口,如果能登陆看到选择服务器等信息代表部署成功。
 
