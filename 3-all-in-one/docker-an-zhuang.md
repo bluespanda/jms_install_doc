@@ -1,3 +1,5 @@
+Docker 安装见:[Docker官方安装文档](https://docs.docker.com/install/)
+
 ## 快速启动
 
 使用 root 命令行输入:
