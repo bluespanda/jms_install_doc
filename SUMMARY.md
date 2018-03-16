@@ -6,6 +6,6 @@
   * [1.2 服务器配置建议](bu-shu-shuo-ming/12-fu-wu-qi-pei-zhi-jian-yi.md)
 * [2 部署步骤](2-bu-shu-bu-zou.md)
   * [2.1 安装基础应用](2-bu-shu-bu-zou/21-an-zhuang-ji-chu-ying-yong.md)
-    * 2.1.1 安装第三方仓库
+    * [2.1.1 安装第三方仓库](2-bu-shu-bu-zou/21-an-zhuang-ji-chu-ying-yong/211-an-zhuang-di-san-fang-cang-ku.md)
 * FAQ
 
