@@ -30,7 +30,7 @@ nohup python run_server.py 2>&1 </dev/null | cat >> log.out &
 查看运行状态:
 
 ```
-docker ps 
+docker ps
 ```
 
 

@@ -17,5 +17,7 @@
   * [4.0 升级前准备](4-geng-xin-sheng-ji/40-sheng-ji-qian-zhun-bei.md)
   * [4.1 开始升级](4-geng-xin-sheng-ji/41-sheng-ji-jumpserver.md)
   * [4.2 启动所有应用](4-geng-xin-sheng-ji/45-qi-dong-suo-you-ying-yong.md)
-* FAQ
+* [FAQ](faq.md)
+  * [系统相关](faq/1jumpserverde-ying-yong-zen-yang-hou-tai-yun-xing-ff1f.md)
+  * 应用相关
 
