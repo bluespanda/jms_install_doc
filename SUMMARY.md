@@ -9,7 +9,7 @@
   * [2.1 安装基础应用](2-bu-shu-bu-zou/21-an-zhuang-ji-chu-ying-yong.md)
   * [2.2 安装 jumpserver](2-bu-shu-bu-zou/21-an-zhuang-jumpserver.md)
   * [2.3 安装COCO](2-bu-shu-bu-zou/23-an-zhuang-coco.md)
-  * 2.4 安装 Web Terminal 前端: Luna
+  * [2.4 安装 Web Terminal 前端: Luna](2-bu-shu-bu-zou/24-an-zhuang-web-terminal-qian-7aef3a-luna.md)
   * 2.5 安装 Windows 支持组件
   * 2.6  配置 Nginx 整合各个组件
 * [3 All-in-One](3-all-in-one.md)
