@@ -64,7 +64,7 @@ sudo firewall-cmd --reload
 
 ### 终端注册
 
-访问jumpserver管理平台,[http://ip地址:8080/terminal/terminal/ ](http://ip地址:8080/terminal/terminal/ ),会出现一条记录，选择接受。
+访问jumpserver管理平台,[http://jumpserver的ip地址:8080/terminal/terminal/ ](http://ip地址:8080/terminal/terminal/ ),会出现一条记录，选择接受。
 
 ### 测试coco
 
