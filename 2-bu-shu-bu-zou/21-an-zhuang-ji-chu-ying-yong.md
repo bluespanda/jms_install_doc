@@ -4,7 +4,7 @@
 sudo yum install -y epel-release
 ```
 
-### 安装各种依赖 {#212-安装各种依赖}
+### 安装基础依赖 {#212-安装各种依赖}
 
 ```
 sudo yum -y install  wget sqlite-devel xz gcc automake zlib-devel openssl-devel
@@ -18,7 +18,7 @@ sudo yum install  git -y
 
 ### 安装Python3 和 Python 虚拟环境 {#214-安装python3-和-python-虚拟环境}
 
-#### 编译安装 {#2141-编译安装}
+> 编译安装
 
 ```
 # wget https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tar.xz
@@ -39,16 +39,12 @@ sudo yum install  git -y
 > 看到下面的提示符\(py3\)代表成功，以后运行 Jumpserver 都要先运 source /opt/py3/bin/activate 命令，jumpserver的所有命令均在该虚拟环境中运行
 
 ```
-(
-py3
-) [
-root@localhost
- py3]
+(py3) [root@localhost py3]
 ```
 
 ## 安装redis {#215-安装redis}
 
-Jumpserver 使用 Redis 做 cache 和 celery broke
+> Jumpserver 使用 Redis 做 cache 和 celery broke
 
 ```
 sudo yum 
@@ -64,28 +60,22 @@ start
 
 ## mariadb {#216-mariadb}
 
-安装mariadb
+> 安装mariadb
 
 ```
- sudo yum -y install 
-mariadb 
-mariadb-devel 
-mariadb-server
+sudo yum -y install mariadb mariadb-devel mariadb-server
 ```
 
 设置开机启动
 
 ```
- sudo systemctl 
-enable
- mariadb
+ sudo systemctl enablemariadb
 ```
 
 启动mariadb
 
 ```
- sudo systemctl start  
-mariadb
+ sudo systemctl start  mariadb
 ```
 
 ### 初始化mariadb数据库 {#2161-初始化mariadb数据库}
@@ -97,10 +87,6 @@ mariadb
 ```
 
 初始化内容如下：
-
-|  |  |
-| :--- | :--- |
-|  |  |
 
 ### 2.1.6.2 创建数据库 Jumpserver 并授权 {#2162-创建数据库-jumpserver-并授权}
 
