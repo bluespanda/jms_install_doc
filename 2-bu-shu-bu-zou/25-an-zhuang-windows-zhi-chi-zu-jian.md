@@ -4,7 +4,7 @@
 
 ### 安装Docker CE
 
-####  卸载旧版本
+#### 卸载旧版本
 
 > Docker 的早期版本称为 docker 或 docker-engine。如果安装了这些版本，请卸载它们及关联的依赖资源。
 
@@ -35,9 +35,9 @@ $ sudo yum install docker-ce
  sudo systemctl start docker
 ```
 
-#### 下载并运行guacamole 
+#### 下载并运行guacamole
 
-> 注意：这里面的IP地址要改成junmpserver所在服务器的IP地址, 否则会出错
+> 注意：这里面的IP地址要改成junmpserver所在服务器的IP地址, 否则会出错。下次耗时较长请安排好时间。
 
 ```
 docker run -d \
@@ -49,7 +49,7 @@ docker run -d \
 
 > 这里所需要注意的是 guacamole 暴露出来的端口是 8181，若与主机上其他端口冲突请自定义一下。
 
-####  防火墙开启端口
+#### 防火墙开启端口
 
 > 开放8181端口
 
@@ -65,7 +65,11 @@ sudo firewall-cmd --reload
 
 #### 注册终端
 
-再次强调：修改 JUMPSERVER\_SERVER 环境变量的配置，填上 Jumpserver 的内网地址, 这时 去 Jumpserver-会话管理-终端管理 接受\[Gua\]开头的一个注册。
+一定要记得修改 JUMPSERVER\_SERVER 环境变量的配置，填上 Jumpserver 的内网地址, 然后在guacamole 都跑起来后，这时去 
 
+```
+Jumpserver平台-会话管理-终端管理
+```
 
+接受\[Gua\]开头的一个终端注册。稍等几秒就可以看到激活中和在线都是绿色的了。
 
